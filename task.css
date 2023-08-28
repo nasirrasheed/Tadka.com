@@ -1,0 +1,256 @@
+* {
+    padding: o;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.outer-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    text-align: center;
+    border-bottom: 1px solid green;
+    padding: 17px 143px 5px 17px;
+}
+
+
+
+.search {
+    padding: 16px 23px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 12px;
+    border-radius: 30px;
+    border: 1px solid rgba(29, 29, 29, 0.10);
+    background: #FFF;
+}
+
+#search {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+#search::placeholder {
+    color: #1D1D1D;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search p {
+    padding: 4px 5px 0px 0px;
+}
+
+.search img {
+    padding: 0px 15px 0px 16px;
+    width: auto;
+    height: 30px;
+}
+
+.logo img {
+    width: 86%;
+}
+
+.btn-1 {
+    display: flex;
+    gap: 4px;
+}
+
+.image_1 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 90px;
+    border-radius: 25px;
+    border: 2px solid #90B649;
+    padding: 14px 10px 14px 22px;
+}
+
+.image_1 img {
+    width: 10px;
+    height: 14px;
+}
+
+.image-2 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 90px;
+    border-radius: 25px;
+    border: 2px solid #90B649;
+    padding: 14px 11px 15px 22px;
+    color: #fff;
+    background-color: #90B649;
+}
+
+.image-2 img {
+    width: 10px;
+    height: 14px;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar ul {
+
+    float: left;
+    margin-right: 12px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333333;
+}
+
+.navbar span {
+    border-top: 2px solid green;
+
+
+}
+
+
+.main-2 {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+    gap: 45%;
+}
+
+.side-1 {
+    position: relative;
+    gap: 6px;
+    display: flex;
+    right: 55px;
+    align-items: center;
+
+}
+
+/*.main_content {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.main_content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Ping LCG;
+    font-size: 14.875px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.362px;
+}
+
+.main_header_2 {
+    height: 82px;
+    max-width: 1280px;
+    margin: 14px auto;
+    display: flex;
+    justify-content: center;
+    gap: 0px 23px;
+    align-items: center;
+}
+
+.logo {
+    width: 12%;
+}
+
+.logo img {
+    width: 152px;
+    height: 67.99px;
+}
+
+.search {
+    padding: 16px 23px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 12px;
+    border-radius: 30px;
+    border: 1px solid rgba(29, 29, 29, 0.10);
+    background: #FFF;
+}
+
+#Hamza {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+#Hamza::placeholder {
+    color: #1D1D1D;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_divs {
+    margin-left: 1%;
+    width: 24%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn_divs .a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border: 1px solid #90B649;
+    padding: 12px 25px;
+    border-radius: 30px;
+}
+
+.a p {
+    font-size: 16px;
+    color: #90B649;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    font-family: Century;
+}
+
+.btn_divs .ab {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: white;
+    background: #90B649;
+    padding: 15px 24px;
+    border-radius: 30px;
+}
+
+.ab p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    font-family: Century;
+}
