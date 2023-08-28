@@ -978,7 +978,7 @@ input#search {
 
 @media only screen and (max-width:325px) {
     .search-b a {
-        padding: 5px 0px 7px 0px;
+        padding: 8px 0px 9px 0px;
         font-size:12px;
         font-weight:Bolder;
     }
@@ -990,7 +990,7 @@ input#search {
     }
 
     input#search {
-        padding: 10px 0px 10px 1px;
+        padding: 9.8px 0px 9.8px 1px;
     }
 
     .end-a img {
