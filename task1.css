@@ -978,7 +978,7 @@ input#search {
 
 @media only screen and (max-width:325px) {
     .search-b a {
-        padding: 12px 0px 13px 0px;
+        padding: 5px 0px 7px 0px;
         font-size:12px;
         font-weight:Bolder;
     }
